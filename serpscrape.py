@@ -5,7 +5,7 @@ from time import sleep
 #import scrape
 
 keyword = input("Enter the Keyword: ")
-n_pages = input("Enter no. of Pages to Scrape")
+n_pages = int(input("Enter no. of Pages to Scrape: "))
 result = []
 html_result = []
 descriptions = []
